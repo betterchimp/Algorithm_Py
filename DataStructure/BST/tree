@@ -1,0 +1,43 @@
+- An abstract data type(ADT) is an abstraction of a data structure .
+
+An ADT spcifies:
+1) Data stored
+2) Operation on the data
+3) Error conditions associated with operations
+
+Tree Structure
+    Abstract data type
+
+    Data stored
+        as a tree structure
+
+    Operations
+        ordinary data structure operations just as linked lists
+        Insert, Delete, Search
+        special searching approaches for trees and networks 
+        Traverse
+
+Terminologies
+    Root, Edge, Node, Parent, Child, Siblings, Leaves (Terminal Nodes), Internal Node, Descendant, Ancestor, Path, Depth(length of path), Height(maximum path length), Degree(num of siblings), size of tree(num of nodes), Full Tree, Complete Tree
+
+Characteristics
+    Num of edges = num of nodes -1
+    Depth of root = 0
+    Height of root = height of tree
+    Max num of nodes at level i with degree d
+    = d**i
+    Max num of leaves with height h and degree d
+    = d**h
+    Max size of a tree with height h and degree d
+    = 1+d+d**2+d**3+...+d**h = (d**(h+1) -1)/d-1
+    Height of a complete tree with size s and degree d
+    = ceiling of  log(d, s(d-1) + 1) - 1
+
+Binary Search tree
+    Binary tree
+        Tree with degree 2
+    Binary search tree
+        Tree with degree 2
+        Tree designed for a fast search of stored data
+        So far, what we have studied the characteristics of stored data
+        Now this is related to the operations
